@@ -1,10 +1,8 @@
-# This program adds two numbers
+# This program prompts for two numbers and adds them.
 
-num1 = 13.54
-num2 = 64.34
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
-# Add two numbers
-sum = num1 + num2
+total = num1 + num2
 
-# Display the sum
-print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+print("The sum of {0} and {1} is {2}".format(num1, num2, total))
